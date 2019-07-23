@@ -1,0 +1,63 @@
+.Card {
+    position: relative;
+    background: #fff;
+    border-radius: .18em;
+    line-height: 1.8em;
+    margin-bottom: 2em;
+    text-align: center;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+}
+.img-frame {
+    width: 100%;
+    padding: 1em 0;
+}
+.img-frame img {
+    height: 12rem;
+    margin: auto;
+}
+.cart-content {
+    background: #282c34;
+    padding: 2.5em 1em;
+    color: #fff;
+    margin: 0 -1em -1em -1em;
+}
+.sale_tag {
+    position: absolute;
+    width: 10em;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
+    transform: rotate(45deg);
+    left: -40px;
+    bottom: 10px;
+    background: red;
+    padding: .5em 1em;
+    color: #eee;
+}
+
+
+.card_action{
+    border:1px solid #CE9A01;-webkit-box-shadow: #FFF563 0px 1px 0px inset;-moz-box-shadow: #FFF563 0px 1px 0px inset; box-shadow: #FFF563 0px 1px 0px inset; -webkit-border-radius: .2em; -moz-border-radius: .2em;border-radius: .2em;font-family:arial, helvetica, sans-serif; padding: 7px 14px 7px 14px; text-decoration:none; display:inline-block;text-shadow: 0px 1px 0 rgba(255,255,255,0.44);font-weight:bold; color: #63460C;
+    background-color: #FFD65E; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD65E), to(#FEBF04));
+    background-image: -webkit-linear-gradient(top, #FFD65E, #FEBF04);
+    background-image: -moz-linear-gradient(top, #FFD65E, #FEBF04);
+    background-image: -ms-linear-gradient(top, #FFD65E, #FEBF04);
+    background-image: -o-linear-gradient(top, #FFD65E, #FEBF04);
+    background-image: linear-gradient(to bottom, #FFD65E, #FEBF04);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFD65E, endColorstr=#FEBF04);
+    }
+    
+.card_action:hover{
+    border:1px solid #CE9A01;
+    background-color: #FFC92B; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFC92B), to(#CE9A01));
+    background-image: -webkit-linear-gradient(top, #FFC92B, #CE9A01);
+    background-image: -moz-linear-gradient(top, #FFC92B, #CE9A01);
+    background-image: -ms-linear-gradient(top, #FFC92B, #CE9A01);
+    background-image: -o-linear-gradient(top, #FFC92B, #CE9A01);
+    background-image: linear-gradient(to bottom, #FFC92B, #CE9A01);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFC92B, endColorstr=#CE9A01);
+}
+
+.card_action:focus{
+    outline: none;
+}
